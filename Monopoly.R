@@ -276,8 +276,8 @@ gameboard[[3]][token$Location] <<- gameboard[[3]][token$Location] + 1
 
 reset()
 
-for(i in 20){
-game(100)
+for(i in 1:20){
+  game(100)
 }
 
 library(dplyr)
